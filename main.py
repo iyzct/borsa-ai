@@ -11,7 +11,7 @@ import traceback
 # MODELLER
 try:
     model_bist = joblib.load("model_bist.pkl")
-    print("MODEL BIST LOADED")
+    print("MODEL_BIST LOADED")
 except Exception as e:
     print("MODEL BIST ERROR:")
     traceback.print_exc()
@@ -19,7 +19,7 @@ except Exception as e:
 
 try:
     model_us = joblib.load("model_nasdaq.pkl")
-    print("MODEL NASDAQ LOADED")
+    print("MODEL_NASDAQ LOADED")
 except Exception as e:
     print("MODEL NASDAQ ERROR:")
     traceback.print_exc()
